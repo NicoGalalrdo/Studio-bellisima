@@ -1,0 +1,39 @@
+.bg-nav-bar  {
+    background-color: #D8A19D
+}
+
+.logo{
+    width: 200px;
+}
+
+.nav-link {
+   color: rgb(250, 251, 252);
+   font-family: cinzel, serif;
+}
+
+.carousel-item{
+   
+    transition-duration: 2s;   
+}
+
+main{
+    background-color: #D8A19D
+
+}
+.main-tilte{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.logo-2{
+    width: 100%;
+}
+
+.col {
+    color: #D8A19D
+}
+
+    
