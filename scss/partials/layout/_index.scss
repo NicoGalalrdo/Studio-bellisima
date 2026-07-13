@@ -1,5 +1,6 @@
 
-@use "../components/variables";;
+@use "../components/variables";
+
 
 .bg-nav-bar  {
     background-color: variables.$fondo;
@@ -19,7 +20,7 @@
     transition-duration: 2s;   
 }
 
-main{
+.main-index{
     background-color: #D8A19D
 
 }
@@ -88,7 +89,7 @@ align-items: center;
 
 }
 
-footer{
+.footer-index{
     background-color: #000000
 }
 
