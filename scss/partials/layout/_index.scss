@@ -8,6 +8,7 @@
 
 .logo{
     width: 200px;
+    border-radius: 0%;
 }
 
 .nav-link {
@@ -21,9 +22,9 @@
 }
 
 .main-index{
-    background-color: #D8A19D
-
+    background-color: #D8A19D;
 }
+
 .main-tilte{
     display: flex;
     text-decoration: none;
@@ -100,4 +101,9 @@ align-items: center;
 
 .ubi{
     width: 50px;
+}
+
+.animate__animated {
+    --animate-duration: 2s;
+    --animation-delay: 2s;
 }
