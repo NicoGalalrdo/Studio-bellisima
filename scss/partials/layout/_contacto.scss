@@ -1,5 +1,24 @@
+@use "../components/variables";
 
-img{
-    width: 200px;
+.main-contacto{
+    margin-top: 1%;
+    background-color: variables.$fondo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.section-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
+.parrafo-3{
+    display: flex;
+    align-items: center;
+   }
+
+.texto-contacto{
+    font-size: 50px;
+}

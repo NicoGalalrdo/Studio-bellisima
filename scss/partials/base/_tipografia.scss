@@ -1,3 +1,5 @@
+@use "../components/variables";
+
 .nav-link {
    color: rgb(250, 251, 252);
    font-family: cinzel, serif;
@@ -9,12 +11,6 @@ a{
     color: white;
 }
 
-.contacto{ 
-    
-    font-size: 25px; 
-    font-family: cinzel, serif;
-    color: rgb(255, 255, 255);
+h1{
+    font-family: variables.$titulos;
 }
-
-
-

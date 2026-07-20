@@ -15,10 +15,8 @@ a {
   color: white;
 }
 
-.contacto {
-  font-size: 25px;
-  font-family: cinzel, serif;
-  color: rgb(255, 255, 255);
+h1 {
+  font-family: serif;
 }
 
 .bg-nav-bar {
@@ -118,12 +116,21 @@ a {
   --animation-delay: 2s;
 }
 
+img {
+  width: 200px;
+}
+
+.contacto {
+  font-size: 25px;
+  font-family: cinzel, serif;
+  color: rgb(255, 255, 255);
+}
+
 body {
   background-color: #72504d;
 }
 
 .main-nosotros {
-  height: 100vh;
   background-color: #D8A19D;
 }
 
@@ -174,8 +181,27 @@ p {
   width: 300px;
 }
 
-img {
-  width: 200px;
+.main-contacto {
+  margin-top: 1%;
+  background-color: #D8A19D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.parrafo-3 {
+  display: flex;
+  align-items: center;
+}
+
+.texto-contacto {
+  font-size: 50px;
 }
 
 .main-uñas {
@@ -198,6 +224,26 @@ img {
 }
 
 .texto-uñas {
+  padding-left: 10%;
+  padding-right: 0%;
+  width: 50%;
+}
+
+.main-pelo {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #D8A19D;
+}
+
+.parrafo-2 {
+  display: flex;
+  align-items: center;
+  gap: 15%;
+}
+
+.texto-pelo {
   padding-left: 10%;
   padding-right: 0%;
   width: 50%;
