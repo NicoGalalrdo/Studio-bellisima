@@ -1,24 +1,26 @@
 @use "../components/variables";
 
-.main-contacto{
+.main-contacto {
     margin-top: 1%;
     background-color: variables.$fondo;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
- 
-.section-contacto{
+
+.section-contacto {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
 }
 
-.parrafo-3{
+.parrafo-3 {
     display: flex;
     align-items: center;
-   }
+    gap: 20px;
+}
 
-.texto-contacto{
-   font-size: clamp(24px, 5vw, 50px);
+.texto-contacto {
+    font-size: 40px;
 }
