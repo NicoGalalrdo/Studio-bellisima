@@ -19,6 +19,106 @@ h1 {
   font-family: serif;
 }
 
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@media (max-width: 992px) {
+  .logo {
+    width: 150px;
+  }
+  .contacto {
+    flex-direction: column;
+    text-align: center;
+    font-size: 22px;
+  }
+  .parrafo-1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .texto-uñas {
+    width: 90%;
+    padding: 0;
+    text-align: center;
+  }
+  .pelo-1,
+  .uñas-1 {
+    width: 350px;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .logo {
+    width: 120px;
+  }
+  .contacto {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .main-title {
+    padding: 20px;
+  }
+  .parrafo-1 {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .texto-uñas {
+    width: 50%;
+    padding: 0;
+  }
+  .pelo-1,
+  .uñas-1 {
+    width: 280px;
+  }
+  .sucursal {
+    padding: 20px;
+    text-align: center;
+  }
+  .ig,
+  .ubi {
+    width: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .logo {
+    width: 100px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .contacto {
+    font-size: 16px;
+  }
+  .pelo-1,
+  .uñas-1 {
+    width: 230px;
+  }
+  .btn-ver-mas {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .main.contacto {
+    font-size: small;
+  }
+  .texto-contacto {
+    font-size: 24px;
+  }
+  .section-contacto {
+    width: 100%;
+    padding: 15px;
+  }
+}
 .bg-nav-bar {
   background-color: #D8A19D;
 }
@@ -201,7 +301,7 @@ p {
 }
 
 .texto-contacto {
-  font-size: 50px;
+  font-size: clamp(24px, 5vw, 50px);
 }
 
 .main-uñas {
